@@ -1,0 +1,11 @@
+test/testng/DemoTest.class
+caps/MobileCapabilityTypeEx.class
+flags/AndroidServerFlagEx.class
+test/testng/SignUpTest.class
+driver/DriverFactory.class
+models/pages/LoginPage.class
+test/api_learning/SwipeToOpenNotification.class
+test/testng/LoginTest.class
+test/authentication/Authentication.class
+models/components/authentication/loginDialogComponent.class
+models/components/global/BottomNavComponent.class

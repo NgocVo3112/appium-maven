@@ -8,9 +8,28 @@ import models.pages.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
-public class Authentication {
-    public static void main(String[] args) {
+public class Login {
+    private SoftAssert softAssert;
+
+    @BeforeTest
+    public void beforeClass(){
+        softAssert = new SoftAssert();
+    }
+
+    @AfterClass
+    public void afterClass(){
+        softAssert.assertAll();
+    }
+
+
+    @Test
+    public void loginWithCorrectCreds() {
         DriverFactory.startAppiumServer();
 
         try{
@@ -30,11 +49,12 @@ public class Authentication {
                     .inputPassword("12345678")
                     .clickOnLoginBtn();
 
-            String loginMsg = loginPage.LoginDialogComponent().msgTitle();
-            System.out.println(loginMsg);
-
-        }catch (Exception ignored){
-
+            // Verification
+            String actualLoginMsg = loginPage.LoginDialogComponent().msgTitle();
+            softAssert.assertEquals(actualLoginMsg,"success", "ERR - Login msg title incorrect");
+            System.out.println(actualLoginMsg);
+        }catch (Exception e){
+            e.printStackTrace();
         }finally {
             DriverFactory.stopAppiumServer();
         }
