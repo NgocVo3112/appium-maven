@@ -1,40 +1,26 @@
 package test.authentication;
 
 import driver.DriverFactory;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import models.components.global.BottomNavComponent;
 import models.pages.LoginPage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import test.BaseTest;
+import test_data.DataObjectBuilder;
+import test_data.LoginCreds;
 
-public class Login {
+public class LoginTestEx extends BaseTest  {
     private SoftAssert softAssert;
 
-    @BeforeTest
-    public void beforeClass(){
-        softAssert = new SoftAssert();
-    }
-
-    @AfterClass
-    public void afterClass(){
-        softAssert.assertAll();
-    }
-
-
-    @Test
+    @Test()
     public void loginWithCorrectCreds() {
         DriverFactory.startAppiumServer();
-
-        try{
             // init driver
-            AndroidDriver<MobileElement> androidDriver = DriverFactory.getAndroidDriver();
+            AppiumDriver<MobileElement> androidDriver = getDriver();
 
             // Login page
             LoginPage loginPage = new LoginPage(androidDriver);
@@ -45,19 +31,14 @@ public class Login {
 
             // Fill Login Form
             loginPage
-                    .inputUsername("Teo@sth.com")
-                    .inputPassword("12345678")
+                    .inputUsername("teo@sth.com")
+                    .inputPassword("123244345")
                     .clickOnLoginBtn();
 
             // Verification
             String actualLoginMsg = loginPage.LoginDialogComponent().msgTitle();
             softAssert.assertEquals(actualLoginMsg,"success", "ERR - Login msg title incorrect");
             System.out.println(actualLoginMsg);
-        }catch (Exception e){
-            e.printStackTrace();
-        }finally {
-            DriverFactory.stopAppiumServer();
-        }
 
     }
 }
