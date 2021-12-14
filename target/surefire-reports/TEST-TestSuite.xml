@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.289" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="31.483" tests="8" errors="0" skipped="4" failures="4">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="surefire.suiteXmlFiles" value="src/main/resources/test-suites/SmokeTest.xml"/>
+    <property name="surefire.suiteXmlFiles" value="src/main/resources/test-suites/Parallel.xml"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/test-classes:/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/classes:/Users/ngoc.vo/.m2/repository/io/appium/java-client/7.6.0/java-client-7.6.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ngoc.vo/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ngoc.vo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ngoc.vo/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ngoc.vo/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/ngoc.vo/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/ngoc.vo/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/ngoc.vo/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/ngoc.vo/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/ngoc.vo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/Users/ngoc.vo/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ngoc.vo/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ngoc.vo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ngoc.vo/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/ngoc.vo/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/ngoc.vo/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ngoc.vo/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/ngoc.vo/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ngoc.vo/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="java.class.path" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/test-classes:/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/classes:/Users/ngoc.vo/.m2/repository/io/appium/java-client/7.6.0/java-client-7.6.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ngoc.vo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ngoc.vo/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ngoc.vo/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/ngoc.vo/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/ngoc.vo/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/ngoc.vo/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/ngoc.vo/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/ngoc.vo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ngoc.vo/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ngoc.vo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ngoc.vo/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/ngoc.vo/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/ngoc.vo/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ngoc.vo/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/ngoc.vo/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ngoc.vo/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/ngoc.vo/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-testng/2.17.0/allure-testng-2.17.0.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-java-commons/2.17.0/allure-java-commons-2.17.0.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-model/2.17.0/allure-model-2.17.0.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-test-filter/2.17.0/allure-test-filter-2.17.0.jar:/Users/ngoc.vo/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -18,9 +18,9 @@
     <property name="user.country" value="VN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/surefire/surefirebooter1951568479528011402.jar /Volumes/Work/SOURCE_CODE/appium-maven-k3/target/surefire 2021-11-27T21-32-12_235-jvmRun1 surefire2124542457072362126tmp surefire_01942599700632219828tmp"/>
+    <property name="sun.java.command" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/surefire/surefirebooter2294835364145071347.jar /Volumes/Work/SOURCE_CODE/appium-maven-k3/target/surefire 2021-12-14T13-03-54_086-jvmRun1 surefire127099874469795374tmp surefire_04933584200622467029tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="surefire.test.class.path" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/test-classes:/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/classes:/Users/ngoc.vo/.m2/repository/io/appium/java-client/7.6.0/java-client-7.6.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ngoc.vo/.m2/repository/com/google/code/gson/gson/2.8.8/gson-2.8.8.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ngoc.vo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ngoc.vo/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ngoc.vo/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/ngoc.vo/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/ngoc.vo/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/ngoc.vo/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/ngoc.vo/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/ngoc.vo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/Users/ngoc.vo/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ngoc.vo/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ngoc.vo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ngoc.vo/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/ngoc.vo/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/ngoc.vo/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ngoc.vo/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/ngoc.vo/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ngoc.vo/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/test-classes:/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/classes:/Users/ngoc.vo/.m2/repository/io/appium/java-client/7.6.0/java-client-7.6.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/ngoc.vo/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/ngoc.vo/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ngoc.vo/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ngoc.vo/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ngoc.vo/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ngoc.vo/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/ngoc.vo/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/ngoc.vo/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/ngoc.vo/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/ngoc.vo/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/ngoc.vo/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-beans/5.3.10/spring-beans-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-core/5.3.10/spring-core-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-jcl/5.3.10/spring-jcl-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/springframework/spring-expression/5.3.10/spring-expression-5.3.10.jar:/Users/ngoc.vo/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/Users/ngoc.vo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/ngoc.vo/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/ngoc.vo/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/ngoc.vo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ngoc.vo/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/ngoc.vo/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/Users/ngoc.vo/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/ngoc.vo/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/ngoc.vo/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ngoc.vo/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/ngoc.vo/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-testng/2.17.0/allure-testng-2.17.0.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-java-commons/2.17.0/allure-java-commons-2.17.0.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-model/2.17.0/allure-model-2.17.0.jar:/Users/ngoc.vo/.m2/repository/io/qameta/allure/allure-test-filter/2.17.0/allure-test-filter-2.17.0.jar:/Users/ngoc.vo/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/ngoc.vo"/>
     <property name="user.language" value="en"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/surefire/surefirebooter1951568479528011402.jar"/>
+    <property name="surefire.real.class.path" value="/Volumes/Work/SOURCE_CODE/appium-maven-k3/target/surefire/surefirebooter2294835364145071347.jar:/Users/ngoc.vo/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -54,6 +54,7 @@
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.library.path" value="/Users/ngoc.vo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="hub" value="http://192.168.1.3"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.301-b09"/>
@@ -62,12 +63,632 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="SignUpInCorrectCreds" classname="test.testng.SignUpTest" time="0.003">
-    <system-out><![CDATA[signUpInCorrectCreds
+  <testcase name="loginWithInCorrectCreds[LoginCreds{username=&apos;&apos;, password=&apos;12345678&apos;}](1)" classname="test.authentication.LoginTest" time="0.741">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at test.authentication.LoginTest.loginWithInCorrectCreds(LoginTest.java:26)
+]]></failure>
+    <system-out><![CDATA[emulator-5554|8000|8301
+NFDIVKMV99999999|7000|8300
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: Error forwarding the new session Request timed out waiting for a node to become available.
+Command duration or timeout: 191 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at driver.DriverFactoryEx.initAppiumDriver(DriverFactoryEx.java:80)
+	at driver.DriverFactoryEx.getAppiumDriver(DriverFactoryEx.java:28)
+	at test.BaseTest.getDriver(BaseTest.java:48)
+	at test.authentication.LoginTest.loginWithInCorrectCreds(LoginTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+	... 40 more
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Request timed out waiting for a node to become available.
+Command duration or timeout: 191 milliseconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 45 more
+Caused by: org.openqa.selenium.WebDriverException: Error forwarding the new session Request timed out waiting for a node to become available.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: unknown
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	... 1 more
+]]></system-err>
+  </testcase>
+  <testcase name="loginWithInCorrectCreds[LoginCreds{username=&apos;&apos;, password=&apos;12345678&apos;}](1)" classname="test.authentication.LoginTest" time="0.248">
+    <failure type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException
+	at test.authentication.LoginTest.loginWithInCorrectCreds(LoginTest.java:26)
+]]></failure>
+    <system-err><![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.mobileGetDeviceInfo (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/general.js:287:10)
+    at AndroidUiautomator2Driver.addDeviceInfoToCaps (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:462:9)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:418:5)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:216)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:225)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:89)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:99)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:97)
+	at driver.DriverFactoryEx.initAppiumDriver(DriverFactoryEx.java:80)
+	at driver.DriverFactoryEx.getAppiumDriver(DriverFactoryEx.java:28)
+	at test.BaseTest.getDriver(BaseTest.java:48)
+	at test.authentication.LoginTest.loginWithInCorrectCreds(LoginTest.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:193)
+	... 40 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.mobileGetDeviceInfo (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/general.js:287:10)
+    at AndroidUiautomator2Driver.addDeviceInfoToCaps (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:462:9)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:418:5)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 45 more
+]]></system-err>
+  </testcase>
+  <testcase name="afterMethod[[TestResult name=loginWithInCorrectCreds status=FAILURE method=LoginTest.loginWithInCorrectCreds(test_data.LoginCreds)[pri:1, instance:test.authentication.LoginTest@30c31dd7] output={null}]](0)" classname="test.authentication.LoginTest" time="16.334">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)&#10;    at processTicksAndRejections (node:internal/process/task_queues:96:5)&#10;    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)&#10;    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)&#10;    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)&#10;    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+]]></failure>
+    <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.22.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
+&amp#27;[35m[Appium]&amp#27;[39m   port: 12764
+&amp#27;[35m[Appium]&amp#27;[39m   allowInsecure: {
+&amp#27;[35m[Appium]&amp#27;[39m     0: chromedriver_autodownload
+&amp#27;[35m[Appium]&amp#27;[39m   }
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 127.0.0.1:12764
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 68&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[35m[HTTP]&amp#27;[39m Request idempotency key: 91bd90b5-99e3-4495-9902-b70cbb2a87ae
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","newCommandTimeout":120,"automationName":"uiautomator2","platformName":"Android","udid":"NFDIVKMV99999999"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.wdiodemoapp.MainActivity","appium:appPackage":"com.wdiodemoapp","appium:automationName":"uiautomator2","appium:newCommandTimeout":120,"platformName":"android","appium:udid":"NFDIVKMV99999999"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","newCommandTimeout":120,"automationName":"uiautomator2","platformName":"Android","udid":"NFDIVKMV99999999"},null,{"firstMatch":[{"appium:appActivity":"com.wdiodemoapp.MainActivity","appium:appPackage":"com.wdiodemoapp","appium:automationName":"uiautomator2","appium:newCommandTimeout":120,"platformName":"android","appium:udid":"NFDIVKMV99999999"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1639461837770 (13:03:57 GMT+0700 (Indochina Time))
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.22.1 creating new AndroidUiautomator2Driver (v1.70.1) session
+&amp#27;[35m[Appium]&amp#27;[39m Explicitly enabling use of insecure features:
+&amp#27;[35m[Appium]&amp#27;[39m     chromedriver_autodownload
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.wdiodemoapp.MainActivity",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.wdiodemoapp",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiautomator2",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:newCommandTimeout": 120,
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:udid": "NFDIVKMV99999999"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 3ad8e426-98cc-4551-b1d2-afff4c87d370
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.wdiodemoapp' directly on the device
+&amp#27;[35m[ADB]&amp#27;[39m Found 2 'build-tools' folders under '/Users/ngoc.vo/Library/Android/sdk' (newest first):
+&amp#27;[35m[ADB]&amp#27;[39m     /Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2
+&amp#27;[35m[ADB]&amp#27;[39m     /Users/ngoc.vo/Library/Android/sdk/build-tools/29.0.2
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"NFDIVKMV99999999","state":"device"},{"udid":"emulator-5554","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: NFDIVKMV99999999
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to NFDIVKMV99999999
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 23
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 23
+&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell appops set io.appium.settings android:mock_location allow'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logs capture with command: /Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 logcat -v threadtime
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8200 to device: 6790
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 forward tcp:8200 tcp:6790'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner.jar' from '/Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2/lib/apksigner.jar'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+&amp#27;[35m[ADB]&amp#27;[39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[ADB]&amp#27;[39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell pm list instrumentation'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+&amp#27;[35m[ADB]&amp#27;[39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.wdiodemoapp
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package com.wdiodemoapp'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.wdiodemoapp' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am force-stop com.wdiodemoapp'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell pm clear com.wdiodemoapp'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.wdiodemoapp' application (stop and clear)
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No obsolete sessions have been detected
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.27.0
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","NFDIVKMV99999999","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 48ms
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999"},"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999","deviceName":"NFDIVKMV99999999","deviceUDID":"NFDIVKMV99999999"}],"alwaysMatch":{}}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"93a84dee-020f-4383-9066-f5ada00275da","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999"},"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999","deviceName":"NFDIVKMV99999999","deviceUDID":"NFDIVKMV99999999"}],"alwaysMatch":{}},"sessionId":"93a84dee-020f-4383-9066-f5ada00275da"}}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/93a84dee-020f-4383-9066-f5ada00275da/appium/device/info] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"93a84dee-020f-4383-9066-f5ada00275da","value":{"androidId":"2ee88692ab74aa","apiVersion":"23","bluetooth":{"state":"OFF"},"brand":"vivo","carrierName":"Viettel","displayDensity":320,"locale":"vi_VN","manufacturer":"vivo","model":"vivo 1601","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-57,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"\"Mai Phuc\"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"6.0","realDisplaySize":"720x1280","timeZone":"Asia/Saigon"}}
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys window'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.wdiodemoapp/com.wdiodemoapp.MainActivity and waiting for 'com.wdiodemoapp/com.wdiodemoapp.MainActivity'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am start -W -n com.wdiodemoapp/com.wdiodemoapp.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/93a84dee-020f-4383-9066-f5ada00275da/appium/device/pixel_ratio] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 server session
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'deleteSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/93a84dee-020f-4383-9066-f5ada00275da] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am force-stop com.wdiodemoapp'
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m INSTRUMENTATION_CODE: 0
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m The process has exited with code 0
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Stopping logcat capture
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Removing forwarded port socket connection: 8200 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 forward --remove tcp:8200'
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1639461852283 (13:04:12 GMT+0700 (Indochina Time))
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m14564 ms - 1160&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="signUpCorrectCreds" classname="test.testng.SignUpTest" time="0">
-    <system-out><![CDATA[signUpCorrectCreds
+  <testcase name="loginWithInCorrectCreds[LoginCreds{username=&apos;teo@sth.com&apos;, password=&apos;&apos;}](2)" classname="test.authentication.LoginTest" time="0">
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)&#10;    at processTicksAndRejections (node:internal/process/task_queues:96:5)&#10;    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)&#10;    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)&#10;    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)&#10;    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+  </testcase>
+  <testcase name="loginWithInCorrectCreds[LoginCreds{username=&apos;teo@sth.com&apos;, password=&apos;&apos;}](2)" classname="test.authentication.LoginTest" time="0">
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)&#10;    at processTicksAndRejections (node:internal/process/task_queues:96:5)&#10;    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)&#10;    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)&#10;    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)&#10;    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+  </testcase>
+  <testcase name="loginWithCorrectCreds" classname="test.authentication.LoginTest" time="0">
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)&#10;    at processTicksAndRejections (node:internal/process/task_queues:96:5)&#10;    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)&#10;    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)&#10;    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)&#10;    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+  </testcase>
+  <testcase name="loginWithCorrectCreds" classname="test.authentication.LoginTest" time="0">
+    <skipped message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)&#10;    at processTicksAndRejections (node:internal/process/task_queues:96:5)&#10;    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)&#10;    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)&#10;    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)&#10;    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver"/>
+  </testcase>
+  <testcase name="afterMethod[[TestResult name=loginWithInCorrectCreds status=FAILURE method=LoginTest.loginWithInCorrectCreds(test_data.LoginCreds)[pri:1, instance:test.authentication.LoginTest@2db2dd9d] output={null}]](0)" classname="test.authentication.LoginTest" time="14.058">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up&#10;    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)&#10;    at processTicksAndRejections (node:internal/process/task_queues:96:5)&#10;    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)&#10;    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)&#10;    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)&#10;    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HCM-NGOCVTM.local&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+]]></failure>
+    <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.22.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m   address: 127.0.0.1
+&amp#27;[35m[Appium]&amp#27;[39m   port: 5082
+&amp#27;[35m[Appium]&amp#27;[39m   allowInsecure: {
+&amp#27;[35m[Appium]&amp#27;[39m     0: chromedriver_autodownload
+&amp#27;[35m[Appium]&amp#27;[39m   }
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 127.0.0.1:5082
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
+[debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.1"}}
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m5 ms - 68&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+[debug] &amp#27;[35m[HTTP]&amp#27;[39m Request idempotency key: 70404beb-9c74-4a22-9bdc-ccd2f8a37abc
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","newCommandTimeout":120,"automationName":"uiautomator2","platformName":"Android","udid":"NFDIVKMV99999999"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.wdiodemoapp.MainActivity","appium:appPackage":"com.wdiodemoapp","appium:automationName":"uiautomator2","appium:newCommandTimeout":120,"platformName":"android","appium:udid":"NFDIVKMV99999999"}]}}&amp#27;[39m
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Calling AppiumDriver.createSession() with args: [{"appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","newCommandTimeout":120,"automationName":"uiautomator2","platformName":"Android","udid":"NFDIVKMV99999999"},null,{"firstMatch":[{"appium:appActivity":"com.wdiodemoapp.MainActivity","appium:appPackage":"com.wdiodemoapp","appium:automationName":"uiautomator2","appium:newCommandTimeout":120,"platformName":"android","appium:udid":"NFDIVKMV99999999"}]}]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionRequested' logged at 1639461853565 (13:04:13 GMT+0700 (Indochina Time))
+&amp#27;[35m[Appium]&amp#27;[39m Appium v1.22.1 creating new AndroidUiautomator2Driver (v1.70.1) session
+&amp#27;[35m[Appium]&amp#27;[39m Explicitly enabling use of insecure features:
+&amp#27;[35m[Appium]&amp#27;[39m     chromedriver_autodownload
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Creating session with W3C capabilities: {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "alwaysMatch": {
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "platformName": "android",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appActivity": "com.wdiodemoapp.MainActivity",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:appPackage": "com.wdiodemoapp",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:automationName": "uiautomator2",
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:newCommandTimeout": 120,
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     "appium:udid": "NFDIVKMV99999999"
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   },
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   "firstMatch": [
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m     {}
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m   ]
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m }
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 1710bacf-01a1-4fda-90a3-919a135652f7
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.wdiodemoapp' directly on the device
+&amp#27;[35m[ADB]&amp#27;[39m Found 2 'build-tools' folders under '/Users/ngoc.vo/Library/Android/sdk' (newest first):
+&amp#27;[35m[ADB]&amp#27;[39m     /Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2
+&amp#27;[35m[ADB]&amp#27;[39m     /Users/ngoc.vo/Library/Android/sdk/build-tools/29.0.2
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Retrieving device list
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Trying to find a connected android device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting connected devices
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Connected devices: [{"udid":"NFDIVKMV99999999","state":"device"},{"udid":"emulator-5554","state":"device"}]
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Using device: NFDIVKMV99999999
+&amp#27;[35m[ADB]&amp#27;[39m Using 'adb' from '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Setting device id to NFDIVKMV99999999
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell getprop ro.build.version.sdk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Current device property 'ro.build.version.sdk': 23
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Device API level: 23
+&amp#27;[35m[AndroidDriver]&amp#27;[39m No app sent in, not parsing package/activity
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 wait-for-device'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell echo ping'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Pushing settings apk to device...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.settings
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.settings' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.settings'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+[debug] &amp#27;[35m[ADB]&amp#27;[39m There is no need to install/upgrade '/usr/local/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting IDs of all 'io.appium.settings' processes
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell 'pgrep --help; echo $?''
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell appops set io.appium.settings android:mock_location allow'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Starting logs capture with command: /Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 logcat -v threadtime
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Forwarding system: 8200 to device: 6790
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 forward tcp:8200 tcp:6790'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.uiautomator2.server'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.27.0' >= '4.27.0')
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+&amp#27;[35m[ADB]&amp#27;[39m Using 'apksigner.jar' from '/Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2/lib/apksigner.jar'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m sha256 hash did match for 'appium-uiautomator2-server-v4.27.0.apk'
+&amp#27;[35m[ADB]&amp#27;[39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for io.appium.uiautomator2.server.test
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'io.appium.uiautomator2.server.test' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Checking app cert for /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Starting apksigner: /Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/ngoc.vo/Library/Android/sdk/build-tools/30.0.2/lib/apksigner.jar verify --print-certs /usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] &amp#27;[35m[ADB]&amp#27;[39m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[ADB]&amp#27;[39m '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Server packages are not going to be (re)installed
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for services to be available
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell pm list instrumentation'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+&amp#27;[35m[ADB]&amp#27;[39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No app capability. Assuming it is already on the device
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Getting install status for com.wdiodemoapp
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys package com.wdiodemoapp'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m 'com.wdiodemoapp' is installed
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am force-stop com.wdiodemoapp'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell pm clear com.wdiodemoapp'
+[debug] &amp#27;[35m[AndroidDriver]&amp#27;[39m Performed fast reset on the installed 'com.wdiodemoapp' application (stop and clear)
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Performing shallow cleanup of automation leftovers
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m No obsolete sessions have been detected
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am force-stop io.appium.uiautomator2.server.test'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting UIAutomator2 server 4.27.0
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.27.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Creating ADB subprocess with args: ["-P",5037,"-s","NFDIVKMV99999999","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/status' to command name 'getStatus'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m The initialization of the instrumentation process took 40ms
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/session' to command name 'createSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999"},"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999","deviceName":"NFDIVKMV99999999","deviceUDID":"NFDIVKMV99999999"}],"alwaysMatch":{}}}
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"6ec9662c-2628-4524-b193-60e56d9267a1","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999"},"platformName":"android","appActivity":"com.wdiodemoapp.MainActivity","appPackage":"com.wdiodemoapp","automationName":"uiautomator2","newCommandTimeout":120,"udid":"NFDIVKMV99999999","deviceName":"NFDIVKMV99999999","deviceUDID":"NFDIVKMV99999999"}],"alwaysMatch":{}},"sessionId":"6ec9662c-2628-4524-b193-60e56d9267a1"}}
+&amp#27;[35m[WD Proxy]&amp#27;[39m Determined the downstream protocol as 'W3C'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/6ec9662c-2628-4524-b193-60e56d9267a1/appium/device/info] with no body
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Got response with status 200: {"sessionId":"6ec9662c-2628-4524-b193-60e56d9267a1","value":{"androidId":"2ee88692ab74aa","apiVersion":"23","bluetooth":{"state":"OFF"},"brand":"vivo","carrierName":"Viettel","displayDensity":320,"locale":"vi_VN","manufacturer":"vivo","model":"vivo 1601","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_VALIDATED","signalStrength":-57,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"\"Mai Phuc\"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"6.0","realDisplaySize":"720x1280","timeZone":"Asia/Saigon"}}
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell dumpsys window'
+&amp#27;[35m[AndroidDriver]&amp#27;[39m Screen already unlocked, doing nothing
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Starting 'com.wdiodemoapp/com.wdiodemoapp.MainActivity and waiting for 'com.wdiodemoapp/com.wdiodemoapp.MainActivity'
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am start -W -n com.wdiodemoapp/com.wdiodemoapp.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] &amp#27;[35m[Instrumentation]&amp#27;[39m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/6ec9662c-2628-4524-b193-60e56d9267a1/appium/device/pixel_ratio] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 session
+[debug] &amp#27;[35m[UiAutomator2]&amp#27;[39m Deleting UiAutomator2 server session
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Matched '/' to command name 'deleteSession'
+[debug] &amp#27;[35m[WD Proxy]&amp#27;[39m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/6ec9662c-2628-4524-b193-60e56d9267a1] with no body
+&amp#27;[35m[WD Proxy]&amp#27;[39m socket hang up
+&amp#27;[35m[UiAutomator2]&amp#27;[39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 shell am force-stop com.wdiodemoapp'
+[debug] &amp#27;[35m[Logcat]&amp#27;[39m Stopping logcat capture
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Removing forwarded port socket connection: 8200 
+[debug] &amp#27;[35m[ADB]&amp#27;[39m Running '/Users/ngoc.vo/Library/Android/sdk/platform-tools/adb -P 5037 -s NFDIVKMV99999999 forward --remove tcp:8200'
+[debug] &amp#27;[35m[BaseDriver]&amp#27;[39m Event 'newSessionStarted' logged at 1639461866363 (13:04:26 GMT+0700 (Indochina Time))
+[debug] &amp#27;[35m[W3C]&amp#27;[39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+[debug] &amp#27;[35m[W3C]&amp#27;[39m     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[31m500&amp#27;[39m &amp#27;[90m12848 ms - 1160&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
 ]]></system-out>
   </testcase>
 </testsuite>

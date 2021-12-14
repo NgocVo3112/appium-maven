@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 08 19:05:14 ICT 2021","Wed Dec 08 19:05:20 ICT 2021","5809","Regression","authentication","test.authentication.LoginTest","test.authentication.LoginTest","loginWithCorrectCreds","Login test","Test login with correct Creds"
+"passed","Wed Dec 08 19:04:46 ICT 2021","Wed Dec 08 19:05:11 ICT 2021","25504","Regression","authentication","test.authentication.LoginTest","test.authentication.LoginTest","loginWithInCorrectCreds","Login test","Test login with incorrect Creds"
+"passed","Wed Dec 08 19:05:11 ICT 2021","Wed Dec 08 19:05:14 ICT 2021","3148","Regression","authentication","test.authentication.LoginTest","test.authentication.LoginTest","loginWithInCorrectCreds","Login test","Test login with incorrect Creds"

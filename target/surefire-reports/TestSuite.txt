@@ -1,4 +1,72 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.289 s - in TestSuite
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 4, Time elapsed: 31.483 s <<< FAILURE! - in TestSuite
+test.authentication.LoginTest.loginWithInCorrectCreds[LoginCreds{username='', password='12345678'}](1)  Time elapsed: 0.741 s  <<< FAILURE!
+java.lang.NullPointerException
+	at test.authentication.LoginTest.loginWithInCorrectCreds(LoginTest.java:26)
+
+test.authentication.LoginTest.afterMethod[[TestResult name=loginWithInCorrectCreds status=FAILURE method=LoginTest.loginWithInCorrectCreds(test_data.LoginCreds)[pri:1, instance:test.authentication.LoginTest@30c31dd7] output={null}]](0)  Time elapsed: 16.334 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+
+test.authentication.LoginTest.loginWithInCorrectCreds[LoginCreds{username='', password='12345678'}](1)  Time elapsed: 0.248 s  <<< FAILURE!
+java.lang.NullPointerException
+	at test.authentication.LoginTest.loginWithInCorrectCreds(LoginTest.java:26)
+
+test.authentication.LoginTest.afterMethod[[TestResult name=loginWithInCorrectCreds status=FAILURE method=LoginTest.loginWithInCorrectCreds(test_data.LoginCreds)[pri:1, instance:test.authentication.LoginTest@2db2dd9d] output={null}]](0)  Time elapsed: 14.058 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HCM-NGOCVTM.local', ip: '127.0.0.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+    at UIA2Proxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:274:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at AndroidUiautomator2Driver.commands.getDevicePixelRatio (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/commands/viewport.js:14:10)
+    at AndroidUiautomator2Driver.fillDeviceDetails (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:244:28)
+    at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:230:7)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:387:35)
+

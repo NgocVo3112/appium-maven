@@ -3,14 +3,7 @@
 <suite name="Regression" verbose="1" >
     <test name="authentication" >
         <classes>
-            <class name="test.testng.LoginTest" />
-            <class name="test.testng.DemoTest" />
-        </classes>
-    </test>
-
-    <test name="signup">
-        <classes>
-            <class name="test.testng.SignUpTest"/>
+            <class name="test.authentication.LoginTest" />
         </classes>
     </test>
 </suite>

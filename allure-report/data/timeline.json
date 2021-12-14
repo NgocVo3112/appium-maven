@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "HCM-NGOCVTM.local",
+    "children" : [ {
+      "name" : "5996@HCM-NGOCVTM.local.main(1)",
+      "children" : [ {
+        "name" : "Login test",
+        "uid" : "48ea0e6da301e67",
+        "parentUid" : "94aae40d002af2e0c7937e3f5a91c917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638965086196,
+          "stop" : 1638965111700,
+          "duration" : 25504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "LoginCreds{username='', password='12345678'}" ]
+      }, {
+        "name" : "Login test",
+        "uid" : "d0852f4b4959646d",
+        "parentUid" : "94aae40d002af2e0c7937e3f5a91c917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638965114937,
+          "stop" : 1638965120746,
+          "duration" : 5809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login test",
+        "uid" : "30dda917bd81c22f",
+        "parentUid" : "94aae40d002af2e0c7937e3f5a91c917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638965111781,
+          "stop" : 1638965114929,
+          "duration" : 3148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "LoginCreds{username='teo@sth.com', password=''}" ]
+      } ],
+      "uid" : "94aae40d002af2e0c7937e3f5a91c917"
+    } ],
+    "uid" : "2539bd628fa84ca43a4dd042e082cacc"
+  } ]
+}
